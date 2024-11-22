@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\praveen.sankhla\\Desktop\\ScoreCounter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BCA3C0C6-F6D7-4789-AC2C-919533DC07BD}|ScoreCounter\\ScoreCounter.csproj|c:\\users\\praveen.sankhla\\desktop\\scorecounter\\scorecounter\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BCA3C0C6-F6D7-4789-AC2C-919533DC07BD}|ScoreCounter\\ScoreCounter.csproj|solutionrelative:scorecounter\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCA3C0C6-F6D7-4789-AC2C-919533DC07BD}|ScoreCounter\\ScoreCounter.csproj|c:\\users\\praveen.sankhla\\desktop\\scorecounter\\scorecounter\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BCA3C0C6-F6D7-4789-AC2C-919533DC07BD}|ScoreCounter\\ScoreCounter.csproj|solutionrelative:scorecounter\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCA3C0C6-F6D7-4789-AC2C-919533DC07BD}|ScoreCounter\\ScoreCounter.csproj|c:\\users\\praveen.sankhla\\desktop\\scorecounter\\scorecounter\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BCA3C0C6-F6D7-4789-AC2C-919533DC07BD}|ScoreCounter\\ScoreCounter.csproj|solutionrelative:scorecounter\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCA3C0C6-F6D7-4789-AC2C-919533DC07BD}|ScoreCounter\\ScoreCounter.csproj|c:\\users\\praveen.sankhla\\desktop\\scorecounter\\scorecounter\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BCA3C0C6-F6D7-4789-AC2C-919533DC07BD}|ScoreCounter\\ScoreCounter.csproj|solutionrelative:scorecounter\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\praveen.sankhla\\Desktop\\ScoreCounter\\ScoreCounter\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "ScoreCounter\\Shared\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\praveen.sankhla\\Desktop\\ScoreCounter\\ScoreCounter\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "ScoreCounter\\Shared\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T09:45:28.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\praveen.sankhla\\Desktop\\ScoreCounter\\ScoreCounter\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "ScoreCounter\\Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\praveen.sankhla\\Desktop\\ScoreCounter\\ScoreCounter\\Pages\\Index.razor",
+              "RelativeToolTip": "ScoreCounter\\Pages\\Index.razor",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T09:43:25.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\praveen.sankhla\\Desktop\\ScoreCounter\\ScoreCounter\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "ScoreCounter\\Shared\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\praveen.sankhla\\Desktop\\ScoreCounter\\ScoreCounter\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "ScoreCounter\\Shared\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T09:30:43.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\praveen.sankhla\\Desktop\\ScoreCounter\\ScoreCounter\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "ScoreCounter\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\praveen.sankhla\\Desktop\\ScoreCounter\\ScoreCounter\\Pages\\Counter.razor",
+              "RelativeToolTip": "ScoreCounter\\Pages\\Counter.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T09:30:21.022Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

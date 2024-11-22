@@ -1,0 +1,74 @@
+﻿@page "/Score"
+
+<div class="container mt-5 text-center">
+    <h1 class="text-center mb-4">EPL-Badminton 2024</h1>
+    <div class="row">
+        <!-- Counter 1 -->
+        <div class="col-md-6">
+            <div class="counter">
+                <h3>@Team1name</h3>
+                <h2 id="counter1-value">@Team1Score</h2>
+                <div class="mt-3">
+                    <button class="btn btn-success m-2 mt-1 mb-1" @onclick="_=> Team1Count(1)">Point +</button>
+                    <button class="btn btn-danger m-2 mt-1 mb-1" @onclick="_=> Team1Count(2)">Point -</button>
+                    @* <button class=" btn btn-secondary" @onclick="_=> Team1Count(0)">Reset</button> *@
+                </div>
+            </div>
+        </div>
+
+        <!-- Counter 2 -->
+        <div class="col-md-6 mt-2">
+            <div class="counter">
+                <h3>@Team2name</h3>
+                <h2 id="counter2-value">@Team2Score</h2>
+                <div class="mt-3">
+                    <button class="btn btn-success m-2 mt-1 mb-1" @onclick="_=> Team2Count(1)">Point +</button>
+                    <button class="btn btn-danger m-2 mb-1 mt-1" @onclick="_=> Team2Count(2)">Point -</button>
+                    @* <button class="btn btn-secondary" @onclick="_=> Team2Count(0)">Reset</button> *@
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-5 col-12">
+            <button class="btn btn-success" @onclick="EndGame">End Game</button>
+        </div>
+    </div>
+</div>
+
+
+@code {
+    private int Team1Score = 0;
+    private int Team2Score = 0;
+    public string Team1name = "Team 1";
+    public string Team2name = "Team 2";
+
+    protected override async Task OnInitializedAsync()
+    {
+        Team1name = await localstorage.GetItemAsync<string>("team1");
+        Team2name = await localstorage.GetItemAsync<string>("team2");
+        Team1Score = await localstorage.GetItemAsync<int>("team1score");
+        Team2Score = await localstorage.GetItemAsync<int>("team2score");
+    }
+
+    private void Team1Count(int count)
+    {
+        if(count == 1) Team1Score++;
+        if (count == 2) Team1Score--;
+        if (count == 0) Team1Score = 0;
+        localstorage.SetItemAsync("team1score", Team1Score);
+    }
+
+    private void Team2Count(int count)
+    {
+        if (count == 1) Team2Score++;
+        if (count == 2) Team2Score--;
+        if (count == 0) Team2Score = 0;
+        localstorage.SetItemAsync("team2score", Team2Score);
+    }
+
+    private async void EndGame()
+    {
+        await localstorage.ClearAsync();
+        navigate.NavigateTo("/");
+    }
+}

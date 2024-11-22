@@ -1,0 +1,1 @@
+C:\Users\praveen.sankhla\Desktop\ScoreCounter\ScoreCounter\ScoreCounter.csproj;x64

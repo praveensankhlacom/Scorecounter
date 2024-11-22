@@ -1,0 +1,49 @@
+﻿@page "/"
+@using ScoreCounter.Shared.Model
+
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Enter Team Names</h1>
+    <EditForm Model="tname" OnValidSubmit="saveteam">
+        <DataAnnotationsValidator />
+        <div class="mb-3">
+            <label for="team1Name" class="form-label">Team 1</label>
+            <InputText @bind-Value="tname.Team1" class="form-control" id="team1Name" placeholder="Enter Team 1 name" />
+        </div>
+        <ValidationMessage For="@(()=>tname.Team1)" style="color:red; margin-top:-10px; text-align:left; font-size: smaller;" />
+        <div class="mb-3">
+            <label for="team2Name" class="form-label">Team 2</label>
+            <InputText @bind-Value="tname.Team2" class="form-control" id="team2Name" placeholder="Enter Team 2 name" />
+        </div>
+        <ValidationMessage For="@(()=>tname.Team1)" style="color:red; margin-top:-10px; text-align:left; font-size: smaller;" />
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </EditForm>
+</div>
+
+<div class="position-fixed bottom-0 mb-1 w-100 text-center"><a href="https://praveensankhla.netlify.app/" style="text-decoration:none;" class="text-dark">Praveen Sankhla</a></div>
+
+@code
+{
+    public Team tname = new Team();
+    public string Team1name = null;
+    public string Team2name = null;
+
+    protected override async Task OnInitializedAsync()
+    {
+        Team1name = await localstorage.GetItemAsync<string>("team1");
+        Team2name = await localstorage.GetItemAsync<string>("team2");
+
+        if (Team1name != null && Team2name != null)
+        {
+            navigate.NavigateTo("/Score");
+        }
+    }
+
+    public void saveteam()
+    {
+        localstorage.SetItemAsync("team1", tname.Team1);
+        localstorage.SetItemAsync("team2", tname.Team2);
+        navigate.NavigateTo("/Score");
+    }
+}
