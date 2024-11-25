@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{BCA3C0C6-F6D7-4789-AC2C-919533DC07BD}|ScoreCounter\\ScoreCounter.csproj|solutionrelative:scorecounter\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BCA3C0C6-F6D7-4789-AC2C-919533DC07BD}|ScoreCounter\\ScoreCounter.csproj|c:\\users\\praveen.sankhla\\desktop\\scorecounter\\scorecounter\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BCA3C0C6-F6D7-4789-AC2C-919533DC07BD}|ScoreCounter\\ScoreCounter.csproj|solutionrelative:scorecounter\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BCA3C0C6-F6D7-4789-AC2C-919533DC07BD}|ScoreCounter\\ScoreCounter.csproj|c:\\users\\praveen.sankhla\\desktop\\scorecounter\\scorecounter\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BCA3C0C6-F6D7-4789-AC2C-919533DC07BD}|ScoreCounter\\ScoreCounter.csproj|solutionrelative:scorecounter\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCA3C0C6-F6D7-4789-AC2C-919533DC07BD}|ScoreCounter\\ScoreCounter.csproj|c:\\users\\praveen.sankhla\\desktop\\scorecounter\\scorecounter\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BCA3C0C6-F6D7-4789-AC2C-919533DC07BD}|ScoreCounter\\ScoreCounter.csproj|solutionrelative:scorecounter\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "ScoreCounter\\Shared\\MainLayout.razor",
               "ToolTip": "C:\\Users\\praveen.sankhla\\Desktop\\ScoreCounter\\ScoreCounter\\Shared\\MainLayout.razor",
               "RelativeToolTip": "ScoreCounter\\Shared\\MainLayout.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-22T09:45:28.021Z",
               "EditorCaption": ""
@@ -61,33 +61,33 @@
               "RelativeDocumentMoniker": "ScoreCounter\\Pages\\Index.razor",
               "ToolTip": "C:\\Users\\praveen.sankhla\\Desktop\\ScoreCounter\\ScoreCounter\\Pages\\Index.razor",
               "RelativeToolTip": "ScoreCounter\\Pages\\Index.razor",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAOAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABEAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-22T09:43:25.988Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\praveen.sankhla\\Desktop\\ScoreCounter\\ScoreCounter\\Shared\\NavMenu.razor",
               "RelativeDocumentMoniker": "ScoreCounter\\Shared\\NavMenu.razor",
               "ToolTip": "C:\\Users\\praveen.sankhla\\Desktop\\ScoreCounter\\ScoreCounter\\Shared\\NavMenu.razor",
               "RelativeToolTip": "ScoreCounter\\Shared\\NavMenu.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAHAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-22T09:30:43.999Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Counter.razor",
               "DocumentMoniker": "C:\\Users\\praveen.sankhla\\Desktop\\ScoreCounter\\ScoreCounter\\Pages\\Counter.razor",
               "RelativeDocumentMoniker": "ScoreCounter\\Pages\\Counter.razor",
               "ToolTip": "C:\\Users\\praveen.sankhla\\Desktop\\ScoreCounter\\ScoreCounter\\Pages\\Counter.razor",
               "RelativeToolTip": "ScoreCounter\\Pages\\Counter.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAOAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAD4AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-22T09:30:21.022Z",
               "EditorCaption": ""

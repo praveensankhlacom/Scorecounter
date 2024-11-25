@@ -297,3 +297,5 @@ C:\Users\praveen.sankhla\Desktop\ScoreCounter\ScoreCounter\obj\Release\net7.0-io
 C:\Users\praveen.sankhla\Desktop\ScoreCounter\ScoreCounter\obj\Release\net7.0-ios\iossimulator-x64\ScoreCounter.pdb
 C:\Users\praveen.sankhla\Desktop\ScoreCounter\ScoreCounter\obj\Release\net7.0-ios\iossimulator-x64\ScoreCounter.genruntimeconfig.cache
 C:\Users\praveen.sankhla\Desktop\ScoreCounter\ScoreCounter\obj\Release\net7.0-ios\iossimulator-x64\ref\ScoreCounter.dll
+C:\Users\praveen.sankhla\Desktop\ScoreCounter\ScoreCounter\obj\Release\net7.0-ios\iossimulator-x64\build-signature\signature
+C:\Users\praveen.sankhla\Desktop\ScoreCounter\ScoreCounter\obj\Release\net7.0-ios\iossimulator-x64\ScoreCounter.sourcelink.json

@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ScoreCounter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+abcec9f63a62a0afa176cf574c7785c1974a5ca8")]
 [assembly: System.Reflection.AssemblyProductAttribute("ScoreCounter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ScoreCounter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

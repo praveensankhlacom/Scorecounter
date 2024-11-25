@@ -2,39 +2,33 @@
 
 <div class="container mt-5 text-center">
     <h1 class="text-center mb-4">EPL-Badminton 2024</h1>
-    <div class="row">
+    <hr/>
+    <div class="d-flex justify-content-center mt-5 flex-column">
         <!-- Counter 1 -->
-        <div class="col-md-6">
-            <div class="counter">
-                <h3>@Team1name</h3>
-                <h2 id="counter1-value">@Team1Score</h2>
-                <div class="mt-3">
-                    <button class="btn btn-success m-2 mt-1 mb-1" @onclick="_=> Team1Count(1)">Point +</button>
-                    <button class="btn btn-danger m-2 mt-1 mb-1" @onclick="_=> Team1Count(2)">Point -</button>
-                    @* <button class=" btn btn-secondary" @onclick="_=> Team1Count(0)">Reset</button> *@
-                </div>
+        <div class="counter">
+            <h3>@Team1name</h3>
+            <h2 id="counter1-value">@Team1Score</h2>
+            <div class="mt-3 d-flex justify-content-center">
+                <button class="btn btn-success m-2 mt-1 mb-1" @onclick="_=> Team1Count(1)">Point +</button>
+                <button class="btn btn-danger m-2 mt-1 mb-1" @onclick="_=> Team1Count(2)">Point -</button>
             </div>
         </div>
 
         <!-- Counter 2 -->
-        <div class="col-md-6 mt-2">
-            <div class="counter">
-                <h3>@Team2name</h3>
-                <h2 id="counter2-value">@Team2Score</h2>
-                <div class="mt-3">
-                    <button class="btn btn-success m-2 mt-1 mb-1" @onclick="_=> Team2Count(1)">Point +</button>
-                    <button class="btn btn-danger m-2 mb-1 mt-1" @onclick="_=> Team2Count(2)">Point -</button>
-                    @* <button class="btn btn-secondary" @onclick="_=> Team2Count(0)">Reset</button> *@
-                </div>
+        <div class="counter mt-5">
+            <h3>@Team2name</h3>
+            <h2 id="counter2-value">@Team2Score</h2>
+            <div class="mt-3 d-flex justify-content-center">
+                <button class="btn btn-success m-2 mt-1 mb-1" @onclick="_=> Team2Count(1)">Point +</button>
+                <button class="btn btn-danger m-2 mb-1 mt-1" @onclick="_=> Team2Count(2)">Point -</button>
             </div>
-        </div>
-
-        <div class="mt-5 col-12">
-            <button class="btn btn-success" @onclick="EndGame">End Game</button>
         </div>
     </div>
 </div>
-
+@* <div class="position-fixed bottom-0 left-0 mb-5">
+    <button class="btn btn-success" @onclick="EndGame">End Game</button>
+</div>
+ *@
 
 @code {
     private int Team1Score = 0;
@@ -66,9 +60,9 @@
         localstorage.SetItemAsync("team2score", Team2Score);
     }
 
-    private async void EndGame()
-    {
-        await localstorage.ClearAsync();
-        navigate.NavigateTo("/");
-    }
+    // private async void EndGame()
+    // {
+    //     await localstorage.ClearAsync();
+    //     navigate.NavigateTo("/");
+    // }
 }
